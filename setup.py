@@ -7,6 +7,9 @@ setup(
     author='Isaac Ellmen',
     author_email='isaac.ellmen@uwaterloo.ca',
     packages=['cov_mutation'],
+    install_requires=[
+        'fire',
+    ],
     entry_points={
         'console_scripts': ['cov_mutation=cov_mutation.command_line:main'],
     }
